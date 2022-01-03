@@ -3,6 +3,7 @@
 1) Usage
 - `docker build . -t myapp`  
 - `docker run -it --rm --name myapp -p 127.0.0.1:3000:3000/tcp -p 127.0.0.1:8000:8000/tcp -v ${PWD}:/myapp myapp`  
+- `npm i && cd backend && npm i && cd .. && cd frontend && npm i`  
 
 2) Contact
 - 
