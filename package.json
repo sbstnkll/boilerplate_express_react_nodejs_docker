@@ -1,0 +1,23 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "description": "myapp app",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbstnkll/boilerplate_express_react_nodejs_docker.git"
+  },
+  "author": "Sebastian Kulle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbstnkll/boilerplate_express_react_nodejs_docker/issues"
+  },
+  "homepage": "https://github.com/sbstnkll/boilerplate_express_react_nodejs_docker#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
